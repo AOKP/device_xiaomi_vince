@@ -180,6 +180,7 @@ persist.radio.mt_sms_ack=20 \
 persist.radio.multisim.config=dsds \
 persist.radio.sw_mbn_update=0 \
 persist.radio.videopause.mode=1 \
+persist.radio.aosp_usr_pref_sel=true \
 persist.vendor.radio.custom_ecc=1 \
 persist.vendor.radio.rat_on=combine \
 persist.vendor.radio.sib16_support=1 \
