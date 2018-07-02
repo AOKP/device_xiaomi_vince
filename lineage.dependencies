@@ -3,16 +3,10 @@
     "remote":      "github",
     "repository":  "mdeejay/kernel_xiaomi_vince",
     "target_path": "kernel/xiaomi/vince",
-    "branch":      "android-8.1-clang"
+    "branch":      "lineage-15.1-nontreble"
   },
   {
-    "remote":      "github",
-    "repository":  "mdeejay/vendor_xiaomi_vince",
-    "target_path": "vendor/xiaomi"
-    "branch":      "android-8.1"
-  },
- {
-   "repository": "android_packages_resources_devicesettings",
-   "target_path": "packages/resources/devicesettings"
- }
+    "repository": "android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings"
+  }
 ]
