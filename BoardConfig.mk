@@ -51,12 +51,12 @@ TARGET_KERNEL_ARCH := arm64
 #TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 TARGET_KERNEL_SOURCE := kernel/xiaomi/vince
 TARGET_KERNEL_CONFIG := vince_defconfig
+
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := 7.0.2
 KBUILD_COMPILER_STRING := Android clang version 7.0.2
-#KBUILD_COMPILER_STRING := dragontc-7.0
 export KBUILD_COMPILER_STRING
-#TARGET_KERNEL_CLANG_PATH := $(ANDROID_BUILD_TOP)/prebuilts/clang/host/$(HOST_OS)-x86/dragontc-7.0/bin
+TARGET_KERNEL_CLANG_PATH := $(ANDROID_BUILD_TOP)/prebuilts/clang/host/$(HOST_OS)-x86/clang-stable/bin
 
 # ANT
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
